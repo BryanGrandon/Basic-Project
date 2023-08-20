@@ -1,8 +1,8 @@
 const d = document;
 
-function Problem1(idButton) {
+function Problem1(btn) {
   d.addEventListener("click", (e) => {
-    if (e.target.matches(idButton)) {
+    if (e.target.matches(btn)) {
       const ageUser = prompt("How old are you?");
       const checkAge = Number(ageUser) == ageUser;
 
