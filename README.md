@@ -16,3 +16,7 @@ Asks for a grade (number). Displays the grade according to the note.
 | 6 - 7  | Good         |
 | 7 - 9  | Remarkable   |
 | 9 - 10 | Outstanding  |
+
+### [Problem 3](/src/js/Modules/problem-3.js)
+
+Make a script that asks for text strings until "cancel" is pressed. On exit with "cancel" all strings concatenated with a hyphen - should be displayed.

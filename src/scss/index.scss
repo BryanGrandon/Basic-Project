@@ -33,16 +33,29 @@
         .btn {
             border:0;
             border-radius: 3px;
+            letter-spacing: 1px;
             padding: 5px;
-            font-weight: bolder;
             width: 150px;
             box-shadow: 1px 1px 4px #333;
             background: #fff;
             cursor: pointer;
-            
             &:hover {
                 box-shadow: 1px 1px 3px #333 inset;
             }
         } 
+        .btn-p3 {
+            width: auto;
+        }
+        .input-p3 {
+            border: 0;
+            border-radius: 5px;
+            padding: 5px;
+            box-shadow: 1px 1px 4px #333;
+            &::placeholder {
+                color: #888;
+                letter-spacing: 1px;
+            }
+        }
     }
 }
+
