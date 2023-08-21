@@ -43,16 +43,16 @@
 .all-problem .article-problem .btn:hover {
   box-shadow: 1px 1px 3px #333 inset;
 }
-.all-problem .article-problem .btn-p3 {
+.all-problem .article-problem .btn-p {
   width: auto;
 }
-.all-problem .article-problem .input-p3 {
+.all-problem .article-problem .input-p {
   border: 0;
   border-radius: 5px;
   padding: 5px;
   box-shadow: 1px 1px 4px #333;
 }
-.all-problem .article-problem .input-p3::placeholder {
+.all-problem .article-problem .input-p::placeholder {
   color: #888;
   letter-spacing: 1px;
 }
