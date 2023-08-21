@@ -50,3 +50,19 @@ Make a script that writes an inverse pyramid of the numbers from 1 to the number
 22
 
 1
+
+### [Problem 7](/src/js/Modules/problem-7.js)
+
+Create a script to generate the following pyramid with numbers from 1 to the number indicated by the user (no more than 50)
+
+1
+
+12
+
+123
+
+1234
+
+12345
+
+123456
