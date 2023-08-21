@@ -20,3 +20,7 @@ Asks for a grade (number). Displays the grade according to the note.
 ### [Problem 3](/src/js/Modules/problem-3.js)
 
 Make a script that asks for text strings until "cancel" is pressed. On exit with "cancel" all strings concatenated with a hyphen - should be displayed.
+
+### [Problem 4](/src/js/Modules/problem-4.js)
+
+Make a script that asks for numbers until "cancel" is pressed. If it is not a number it should be indicated with an "alert" and continue asking. When exiting with "cancel" the total sum of the numbers entered should be displayed.
