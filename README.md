@@ -66,3 +66,19 @@ Create a script to generate the following pyramid with numbers from 1 to the num
 12345
 
 123456
+
+### [Problem 8](/src/js/Modules/problem-8.js)
+
+Make a script that writes the numbers from 1 to 500, that indicates which are multiples of 4 and 9 and that every 5 lines displays a horizontal line.
+
+1
+
+2
+
+3
+
+4 (Multiple of 4)
+
+5
+
+6
