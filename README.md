@@ -40,3 +40,13 @@ Make a script that writes a pyramid from 1 to 30 as follows
 55555
 
 666666
+
+### [Problem 6](/src/js/Modules/problem-6.js)
+
+Make a script that writes an inverse pyramid of the numbers from 1 to the number indicated by the user in the following way
+
+333
+
+22
+
+1
