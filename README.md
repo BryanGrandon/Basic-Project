@@ -24,3 +24,19 @@ Make a script that asks for text strings until "cancel" is pressed. On exit with
 ### [Problem 4](/src/js/Modules/problem-4.js)
 
 Make a script that asks for numbers until "cancel" is pressed. If it is not a number it should be indicated with an "alert" and continue asking. When exiting with "cancel" the total sum of the numbers entered should be displayed.
+
+### [Problem 5](/src/js/Modules/problem-5.js)
+
+Make a script that writes a pyramid from 1 to 30 as follows
+
+1
+
+22
+
+333
+
+4444
+
+55555
+
+666666
