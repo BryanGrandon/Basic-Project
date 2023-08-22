@@ -6,6 +6,7 @@ import { Problem5 } from "./Modules/problem-5.js";
 import { Problem6 } from "./Modules/problem-6.js";
 import { Problem7 } from "./Modules/problem-7.js";
 import { Problem8 } from "./Modules/problem-8.js";
+import { Problem9 } from "./Modules/problem-9.js";
 
 const d = document;
 
@@ -18,4 +19,5 @@ d.addEventListener("DOMContentLoaded", (e) => {
   Problem6(".btn-p6");
   Problem7(".btn-p7");
   Problem8(".btn-p8");
+  Problem9(".btn-p9");
 });

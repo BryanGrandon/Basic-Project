@@ -82,3 +82,9 @@ Make a script that writes the numbers from 1 to 500, that indicates which are mu
 5
 
 6
+
+### [Problem 9](/src/js/Modules/problem-9.js)
+
+Make a script that asks for the number of rows and columns and writes a table. Inside each of the cells a consecutive number should be written in descending order.
+
+for example, the table is 7×5 the numbers will go from 35 to 1.
