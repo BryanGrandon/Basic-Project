@@ -88,3 +88,7 @@ Make a script that writes the numbers from 1 to 500, that indicates which are mu
 Make a script that asks for the number of rows and columns and writes a table. Inside each of the cells a consecutive number should be written in descending order.
 
 for example, the table is 7×5 the numbers will go from 35 to 1.
+
+### [Problem 10](/src/js/Modules/problem-10.js)
+
+Create a script that prompts for 3 ages and 3 names and indicates the name of the oldest one.
