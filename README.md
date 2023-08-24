@@ -92,3 +92,7 @@ for example, the table is 7×5 the numbers will go from 35 to 1.
 ### [Problem 10](/src/js/Modules/problem-10.js)
 
 Create a script that prompts for 3 ages and 3 names and indicates the name of the oldest one.
+
+### [Problem 11](/src/js/Modules/problem-11.js)
+
+Performs a script that generates a random number between 1 and 99
