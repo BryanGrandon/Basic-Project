@@ -96,3 +96,7 @@ Create a script that prompts for 3 ages and 3 names and indicates the name of th
 ### [Problem 11](/src/js/Modules/problem-11.js)
 
 Performs a script that generates a random number between 1 and 99
+
+### [Problem 12](/src/js/Modules/problem-12.js)
+
+Generates 3 random numbers between 1 and 99 but none of them repeated.

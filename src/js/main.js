@@ -1,6 +1,7 @@
 import { Problem1 } from "./Modules/problem-1.js";
 import { Problem10 } from "./Modules/problem-10.js";
 import { Problem11 } from "./Modules/problem-11.js";
+import { Problem12 } from "./Modules/problem-12.js";
 import { Problem2 } from "./Modules/problem-2.js";
 import { Problem3 } from "./Modules/problem-3.js";
 import { Problem4 } from "./Modules/problem-4.js";
@@ -24,4 +25,5 @@ d.addEventListener("DOMContentLoaded", (e) => {
   Problem9(".btn-p9");
   Problem10(".btn-p10");
   Problem11(".btn-p11");
+  Problem12(".btn-p12");
 });
