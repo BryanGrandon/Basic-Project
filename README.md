@@ -1,10 +1,10 @@
 # Basic Problems
 
-### [Problem 1](/src/js/Modules/problem-1.js)
+### [Problem 1](/src/js/Modules/problem-01.js)
 
 It asks for the age and if over 18 years old, it indicates that you can already drive.
 
-### [Problem 2](/src/js/Modules/problem-2.js)
+### [Problem 2](/src/js/Modules/problem-02.js)
 
 Asks for a grade (number). Displays the grade according to the note.
 
@@ -17,15 +17,15 @@ Asks for a grade (number). Displays the grade according to the note.
 | 7 - 9  | Remarkable   |
 | 9 - 10 | Outstanding  |
 
-### [Problem 3](/src/js/Modules/problem-3.js)
+### [Problem 3](/src/js/Modules/problem-03.js)
 
 Make a script that asks for text strings until "cancel" is pressed. On exit with "cancel" all strings concatenated with a hyphen - should be displayed.
 
-### [Problem 4](/src/js/Modules/problem-4.js)
+### [Problem 4](/src/js/Modules/problem-04.js)
 
 Make a script that asks for numbers until "cancel" is pressed. If it is not a number it should be indicated with an "alert" and continue asking. When exiting with "cancel" the total sum of the numbers entered should be displayed.
 
-### [Problem 5](/src/js/Modules/problem-5.js)
+### [Problem 5](/src/js/Modules/problem-05.js)
 
 Make a script that writes a pyramid from 1 to 30 as follows
 
@@ -41,7 +41,7 @@ Make a script that writes a pyramid from 1 to 30 as follows
 
 666666
 
-### [Problem 6](/src/js/Modules/problem-6.js)
+### [Problem 6](/src/js/Modules/problem-06.js)
 
 Make a script that writes an inverse pyramid of the numbers from 1 to the number indicated by the user in the following way
 
@@ -51,7 +51,7 @@ Make a script that writes an inverse pyramid of the numbers from 1 to the number
 
 1
 
-### [Problem 7](/src/js/Modules/problem-7.js)
+### [Problem 7](/src/js/Modules/problem-07.js)
 
 Create a script to generate the following pyramid with numbers from 1 to the number indicated by the user (no more than 50)
 
@@ -67,7 +67,7 @@ Create a script to generate the following pyramid with numbers from 1 to the num
 
 123456
 
-### [Problem 8](/src/js/Modules/problem-8.js)
+### [Problem 8](/src/js/Modules/problem-08.js)
 
 Make a script that writes the numbers from 1 to 500, that indicates which are multiples of 4 and 9 and that every 5 lines displays a horizontal line.
 
@@ -83,7 +83,7 @@ Make a script that writes the numbers from 1 to 500, that indicates which are mu
 
 6
 
-### [Problem 9](/src/js/Modules/problem-9.js)
+### [Problem 9](/src/js/Modules/problem-09.js)
 
 Make a script that asks for the number of rows and columns and writes a table. Inside each of the cells a consecutive number should be written in descending order.
 
@@ -100,3 +100,7 @@ Performs a script that generates a random number between 1 and 99
 ### [Problem 12](/src/js/Modules/problem-12.js)
 
 Generates 3 random numbers between 1 and 99 but none of them repeated.
+
+### [Problem 13](/src/js/Modules/problem-13.js)
+
+Make a script that asks for text and displays it in uppercase.

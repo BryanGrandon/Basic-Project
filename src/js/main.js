@@ -1,16 +1,16 @@
-import { Problem1 } from "./Modules/problem-1.js";
+import { Problem1 } from "./Modules/problem-01.js";
+import { Problem2 } from "./Modules/problem-02.js";
+import { Problem3 } from "./Modules/problem-03.js";
+import { Problem4 } from "./Modules/problem-04.js";
+import { Problem5 } from "./Modules/problem-05.js";
+import { Problem6 } from "./Modules/problem-06.js";
+import { Problem7 } from "./Modules/problem-07.js";
+import { Problem8 } from "./Modules/problem-08.js";
+import { Problem9 } from "./Modules/problem-09.js";
 import { Problem10 } from "./Modules/problem-10.js";
 import { Problem11 } from "./Modules/problem-11.js";
 import { Problem12 } from "./Modules/problem-12.js";
-import { Problem2 } from "./Modules/problem-2.js";
-import { Problem3 } from "./Modules/problem-3.js";
-import { Problem4 } from "./Modules/problem-4.js";
-import { Problem5 } from "./Modules/problem-5.js";
-import { Problem6 } from "./Modules/problem-6.js";
-import { Problem7 } from "./Modules/problem-7.js";
-import { Problem8 } from "./Modules/problem-8.js";
-import { Problem9 } from "./Modules/problem-9.js";
-
+import { Problem13 } from "./Modules/problem-13.js";
 const d = document;
 
 d.addEventListener("DOMContentLoaded", (e) => {
@@ -26,4 +26,5 @@ d.addEventListener("DOMContentLoaded", (e) => {
   Problem10(".btn-p10");
   Problem11(".btn-p11");
   Problem12(".btn-p12");
+  Problem13(".btn-p13");
 });
