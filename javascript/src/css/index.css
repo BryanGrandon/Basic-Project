@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+.all-problem {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  gap: 20px;
+}
+.all-problem .article-problem {
+  border-radius: 15px;
+  padding: 15px 20px;
+  box-shadow: 2px 2px 10px #333;
+  max-width: 550px;
+}
+.all-problem .article-problem .problem {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 10px 0 5px 0;
+}
+.all-problem .article-problem h3 {
+  letter-spacing: 1px;
+  color: #f00;
+}
+.all-problem .article-problem .btn {
+  border: 0;
+  border-radius: 3px;
+  letter-spacing: 1px;
+  padding: 5px;
+  width: 150px;
+  box-shadow: 1px 1px 4px #333;
+  background: #fff;
+  cursor: pointer;
+}
+.all-problem .article-problem .btn:hover {
+  box-shadow: 1px 1px 3px #333 inset;
+}
+.all-problem .article-problem .btn-p {
+  width: auto;
+}
+.all-problem .article-problem .input-p {
+  border: 0;
+  border-radius: 5px;
+  padding: 5px;
+  box-shadow: 1px 1px 4px #333;
+}
+.all-problem .article-problem .input-p::placeholder {
+  color: #888;
+  letter-spacing: 1px;
+}
+
+/*# sourceMappingURL=index.css.map */

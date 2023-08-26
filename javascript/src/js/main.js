@@ -1,0 +1,30 @@
+import { Problem1 } from "./Modules/problem-01.js";
+import { Problem2 } from "./Modules/problem-02.js";
+import { Problem3 } from "./Modules/problem-03.js";
+import { Problem4 } from "./Modules/problem-04.js";
+import { Problem5 } from "./Modules/problem-05.js";
+import { Problem6 } from "./Modules/problem-06.js";
+import { Problem7 } from "./Modules/problem-07.js";
+import { Problem8 } from "./Modules/problem-08.js";
+import { Problem9 } from "./Modules/problem-09.js";
+import { Problem10 } from "./Modules/problem-10.js";
+import { Problem11 } from "./Modules/problem-11.js";
+import { Problem12 } from "./Modules/problem-12.js";
+import { Problem13 } from "./Modules/problem-13.js";
+const d = document;
+
+d.addEventListener("DOMContentLoaded", (e) => {
+  Problem1(".btn-p1");
+  Problem2(".btn-p2");
+  Problem3(".input-p3", ".btn-accept-p3", ".btn-cancel-p3");
+  Problem4(".input-p4", ".btn-accept-p4", ".btn-cancel-p4");
+  Problem5(".btn-p5");
+  Problem6(".btn-p6");
+  Problem7(".btn-p7");
+  Problem8(".btn-p8");
+  Problem9(".btn-p9");
+  Problem10(".btn-p10");
+  Problem11(".btn-p11");
+  Problem12(".btn-p12");
+  Problem13(".btn-p13");
+});
