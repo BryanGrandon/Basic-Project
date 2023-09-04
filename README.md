@@ -11,3 +11,8 @@
 - [Flex - structure-1](/css/flex-structure-1/)
 
 ## [JS](/Docs/js.md)
+
+- [Countdown](/javascript/countdown/)
+- [Device Detection](/javascript/device-detection/)
+- [Network Status](/javascript/network-status/)
+- [Search Filter](/javascript/search-filter/)
