@@ -108,3 +108,7 @@ Make a script that asks for text and displays it in uppercase.
 Make a script that asks for a text string and displays it by putting the - sign between each character without using the replace method.
 
 Ej: Hello. How are you? => "H-e-l-l-o-.- -H-o-w- -a-r-e- -y-o-u-?"
+
+### [Problem 15](/javascript/problems/src/js/Modules/problem-15.js)
+
+Make a script that counts the number of vowels in a text.
