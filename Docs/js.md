@@ -116,3 +116,7 @@ Make a script that counts the number of vowels in a text.
 ### [Problem 16](/javascript/problems/src/js/Modules/problem-16.js)
 
 We ask for a text string that we know may contain parentheses. Make a script that extracts the string between the parentheses.
+
+### [Problem 17](/javascript/problems/src/js/Modules/problem-17.js)
+
+Make a script that asks for a text string and returns it backwards.
