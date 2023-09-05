@@ -112,3 +112,7 @@ Ej: Hello. How are you? => "H-e-l-l-o-.- -H-o-w- -a-r-e- -y-o-u-?"
 ### [Problem 15](/javascript/problems/src/js/Modules/problem-15.js)
 
 Make a script that counts the number of vowels in a text.
+
+### [Problem 16](/javascript/problems/src/js/Modules/problem-16.js)
+
+We ask for a text string that we know may contain parentheses. Make a script that extracts the string between the parentheses.
