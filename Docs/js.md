@@ -128,3 +128,7 @@ Make a script that asks for a text and indicates if it is a palindrome.
 ### [Problem 19](/javascript/problems/src/js/Modules/problem-19.js)
 
 Performs a script that displays the fibonacci series up to a number between 1 and 100 requested by keyboard.
+
+### [Problem 20](/javascript/problems/src/js/Modules/problem-20.js)
+
+Make a script that simulates the game of Rock Paper Scissors against the PC.
