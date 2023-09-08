@@ -132,3 +132,7 @@ Performs a script that displays the fibonacci series up to a number between 1 an
 ### [Problem 20](/javascript/problems/src/js/Modules/problem-20.js)
 
 Make a script that simulates the game of Rock Paper Scissors against the PC.
+
+###
+
+Create a function that generates a random integer between min and max, which will be passed as parameters. By default min = 1 and max = 100
