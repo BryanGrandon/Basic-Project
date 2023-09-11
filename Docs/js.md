@@ -140,3 +140,7 @@ Create a function that generates a random integer between min and max, which wil
 ### [Problem 22](/javascript/problems/src/js/Modules/problem-22.js)
 
 Create a function that generates 100 random numbers between 1 and 1000 that are not repeated and then display them on the screen.
+
+### [Problem 23](/javascript/problems/src/js/Modules/problem-23.js)
+
+Make a script that writes the current date and time to the document.

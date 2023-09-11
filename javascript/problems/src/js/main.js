@@ -20,6 +20,7 @@ import { Problem19 } from "./Modules/problem-19.js";
 import { Problem20 } from "./Modules/problem-20.js";
 import { Problem21 } from "./Modules/problem-21.js";
 import { Problem22 } from "./Modules/problem-22.js";
+import { Problem23 } from "./Modules/problem-23.js";
 const d = document;
 
 d.addEventListener("DOMContentLoaded", (e) => {
@@ -45,4 +46,5 @@ d.addEventListener("DOMContentLoaded", (e) => {
   Problem20(".btn-p20");
   Problem21(".btn-p21");
   Problem22(".btn-p22");
+  Problem23(".btn-p23");
 });
