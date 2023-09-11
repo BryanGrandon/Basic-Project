@@ -117,7 +117,7 @@ Make a script that counts the number of vowels in a text.
 
 We ask for a text string that we know may contain parentheses. Make a script that extracts the string between the parentheses.
 
-### [Problem 17](/javascript/problems/src/js/Modules/problem-17.js)s
+### [Problem 17](/javascript/problems/src/js/Modules/problem-17.js)
 
 Make a script that asks for a text string and returns it backwards.
 
@@ -133,6 +133,10 @@ Performs a script that displays the fibonacci series up to a number between 1 an
 
 Make a script that simulates the game of Rock Paper Scissors against the PC.
 
-###
+### [Problem 21](/javascript/problems/src/js/Modules/problem-21.js)
 
 Create a function that generates a random integer between min and max, which will be passed as parameters. By default min = 1 and max = 100
+
+### [Problem 22](/javascript/problems/src/js/Modules/problem-22.js)
+
+Create a function that generates 100 random numbers between 1 and 1000 that are not repeated and then display them on the screen.
