@@ -1,18 +1,22 @@
-# Basic Problems
+## Programming Logic
 
-## HTML
+- [JavaScript](/Docs/js.md)
 
-- [Form-1 Colors](/html/form-1.html)
-- [Form-2](/html/form-2.html)
-- [Structure-1](/html/structure-1.html)
+## Basic Projects
 
-## CSS
+### HTML
 
-- [Flex - structure-1](/css/flex-structure-1/)
+- [Form-1 Colors](/Basic-Projects/html/form-1.html)
+- [Form-2](/Basic-Projects/html/form-2.html)
+- [Structure-1](/Basic-Projects/html/structure-1.html)
 
-## [JS](/Docs/js.md)
+### CSS
 
-- [Countdown](/javascript/countdown/)
-- [Device Detection](/javascript/device-detection/)
-- [Network Status](/javascript/network-status/)
-- [Search Filter](/javascript/search-filter/)
+- [Flex - structure-1](/Basic-Projects/css/flex-structure-1/)
+
+### JS and TS
+
+- [Countdown](/Basic-Projects/javascript/countdown/)
+- [Device Detection](/Basic-Projects/javascript/device-detection/)
+- [Network Status](/Basic-Projects/javascript/network-status/)
+- [Search Filter](/Basic-Projects/javascript/search-filter/)
