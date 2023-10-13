@@ -32,7 +32,7 @@ html {
     gap: 20px;
   }
 }
-.container-countdown .n-countdown {
+.container-countdown .updater {
   display: block;
   font-family: "DS-Digital", sans-serif;
   font-size: 3rem;
@@ -41,16 +41,16 @@ html {
   text-shadow: 2px 2px 5px #000;
 }
 @media screen and (min-width: 550px) {
-  .container-countdown .n-countdown {
+  .container-countdown .updater {
     font-size: 4rem;
   }
 }
 @media screen and (min-width: 1020px) {
-  .container-countdown .n-countdown {
+  .container-countdown .updater {
     font-size: 10rem;
   }
 }
-.container-countdown .t-countdown {
+.container-countdown .time-text {
   font-family: cursive;
   font-size: 10px;
   color: #dfdfdf;
@@ -58,7 +58,7 @@ html {
   font-weight: 600;
 }
 @media screen and (min-width: 550px) {
-  .container-countdown .t-countdown {
+  .container-countdown .time-text {
     font-size: 1rem;
   }
 }
@@ -105,5 +105,3 @@ article {
     margin: auto;
   }
 }
-
-/*# sourceMappingURL=index.css.map */

@@ -1,24 +1,22 @@
 const d = document;
+const time = ["days", "hours", "minutes", "seconds"];
 
-function createStructure(): HTMLElement {
-  const time: Array<string> = ["days", "hours", "minutes", "seconds"];
+function createStructure() {
   const $fragment = d.createDocumentFragment();
-
   time.forEach((e) => {
     const $section = d.createElement("section");
-    let importantClass = `n-${e}`;
-    const content = `
-    <p class="n-countdown ${importantClass}"></p>
-    <p class="t-countdown">${e}</p>
+    let classUpdater = `${e}-updater`;
+    let content = `
+    <p class="updater ${classUpdater}"></p>
+    <p class="time-text">${e}</p>
     `;
     $section.innerHTML = content;
     $fragment.appendChild($section);
 
     const $span = d.createElement("span");
     $span.textContent = ":";
-    $span.classList.add("n-countdown");
-
-    if (e !== "seconds") $fragment.appendChild($span);
+    $span.classList.add("updater");
+    if (e !== time.at(-1)) $fragment.appendChild($span);
   });
   const $sectionMain = d.createElement("section");
   $sectionMain.classList.add("container-countdown");
@@ -26,23 +24,20 @@ function createStructure(): HTMLElement {
   return $sectionMain;
 }
 
-function countdown(id: string, date: string | number, message: string): void {
-  const $container = d.getElementById(id)!;
-
-  const $sectionMain = createStructure();
+function countdown(id, date, message, time) {
+  const $container = d.getElementById(id);
+  const $sectionMain = createStructure(time);
   $container.appendChild($sectionMain);
 
-  const $days = d.querySelector(".n-days")!;
-  const $hours = d.querySelector(".n-hours")!;
-  const $minutes = d.querySelector(".n-minutes")!;
-  const $seconds = d.querySelector(".n-seconds")!;
+  const $days = d.querySelector(".days-updater");
+  const $hours = d.querySelector(".hours-updater");
+  const $minutes = d.querySelector(".minutes-updater");
+  const $seconds = d.querySelector(".seconds-updater");
 
   const countdownTempo = setInterval(() => {
     const countdownDate = new Date(date).getTime();
-
     let now = new Date().getTime(),
       limitTime = countdownDate - now;
-
     let days = Math.floor(limitTime / (1000 * 60 * 60 * 24)),
       hours = Math.floor(
         (limitTime % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)
@@ -50,26 +45,14 @@ function countdown(id: string, date: string | number, message: string): void {
       minutes = Math.floor((limitTime % (1000 * 60 * 60)) / (1000 * 60)),
       seconds = Math.floor((limitTime % (1000 * 60)) / 1000);
 
-    let day = days.toString(),
-      hour = hours.toString(),
-      minute = minutes.toString(),
-      second = seconds.toString();
-
-    if (days < 10) day = `0${day}`;
-    if (hours < 10) hour = `0${hour}`;
-    if (minutes < 10) minute = `0${minute}`;
-    if (seconds < 10) second = `0${second}`;
-
-    $days.textContent = `${day}`;
-    $hours.textContent = `${hour}`;
-    $minutes.textContent = `${minute}`;
-    $seconds.textContent = `${second}`;
-
+    $days.textContent = days < 10 ? (days = `0${days}`) : days;
+    $hours.textContent = hours < 10 ? (hours = `0${hours}`) : hours;
+    $minutes.textContent = minutes < 10 ? (minutes = `0${minutes}`) : minutes;
+    $seconds.textContent = seconds < 10 ? (seconds = `0${seconds}`) : seconds;
     if (limitTime < 0) {
       clearInterval(countdownTempo);
       let info = `<section class="m-countdown"><p>${message}</p></section>`;
       $container.insertAdjacentHTML("beforeend", info);
-
       $days.textContent = `00`;
       $hours.textContent = `00`;
       $minutes.textContent = `00`;
@@ -77,9 +60,8 @@ function countdown(id: string, date: string | number, message: string): void {
     }
   }, 1000);
 }
-
 d.addEventListener("DOMContentLoaded", () => {
-  let test = new Date().getTime() + 10_000; // 08 seconds
-  //   countdown("countdown", test, "Hello world");
-  countdown("countdown", "Sep 18 2023 14:30:00", "Message");
+  let test = new Date().getTime() + 10000; // 08 seconds
+  countdown("countdown", test, "Hello world");
+  // countdown("countdown", "Sep 18 2023 14:30:00", "Message");
 });
