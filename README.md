@@ -12,4 +12,5 @@
 
 ## JS
 
-- [countdown](/projects/javascript/countdown/)
+- [Countdown](/projects/javascript/countdown/index.html)
+- [Search Filter](/projects/javascript/search-filter/index.html)
