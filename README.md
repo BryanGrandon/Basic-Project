@@ -9,6 +9,7 @@
 ## CSS
 
 - [Pricing Cards For Website](/projects/css/pricing-cards-for-website/index.html)
+- [Profile Card](/projects/css/profile-card/index.html)
 
 ## JS
 
