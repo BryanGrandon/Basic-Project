@@ -32,8 +32,12 @@ header {
   font-size: 1rem;
 }
 .navbar .logo a:hover,
-.navbar .links a:hover {
+.navbar .links a:hover,
+.dropdown_menu a:hover {
   color: orange;
+}
+.dropdown_menu .action_btn:hover {
+  color: #fff;
 }
 .navbar .logo a {
   font-size: 1.5rem;
