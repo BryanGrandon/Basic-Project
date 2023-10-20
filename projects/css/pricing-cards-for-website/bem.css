@@ -1,0 +1,140 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.cards {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 19em;
+  gap: 0.5rem;
+  overflow: hidden;
+  border-radius: 2rem;
+  box-shadow: 2px 2px 6px #222;
+}
+
+/* Element card for all */
+.card__element {
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid #000; */
+}
+.card__title {
+  font-size: 1.5em;
+}
+.card__text {
+  font-size: 1em;
+}
+
+/* header -> card header */
+.card__header {
+  justify-content: center;
+  height: 3.5rem;
+  padding: 0 1rem;
+}
+/* article -> card price */
+.card__price {
+  height: 3rem;
+}
+.card__price__element {
+  width: 14rem;
+  height: inherit;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 2px 2px 5px #223;
+  border-radius: 0 2rem 2rem 0;
+}
+.card__price__text {
+  background-position: center;
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+/* article -> card benefits list */
+.card__benefits {
+  padding: 0.5rem 1rem;
+  /* responsive? */
+  min-height: 11rem;
+}
+.card__list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+.card__list__element {
+  display: flex;
+  gap: 0.5rem;
+  min-height: 1.5rem;
+}
+/* hr */
+.card__hr {
+  position: relative;
+  top: 0;
+  left: 1rem;
+  width: calc(100% - 2rem);
+}
+/* footer -> footer */
+.card__footer {
+  align-items: center;
+  justify-content: center;
+  height: 4rem;
+}
+.btn {
+  border-width: 1px;
+  border-radius: 2rem;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  padding: 0.5rem 1.5rem;
+  cursor: pointer;
+}
+.card__btn {
+  background-color: transparent;
+  box-shadow: 1px 1px 5px #fff;
+  transition: background 0.6s ease, color 0.6s ease;
+}
+.card__btn:hover {
+  box-shadow: 1px 1px 10px #fff;
+  background: #fff;
+  color: #000;
+}
+
+/* Colors */
+:root {
+  --bg-color-basic: linear-gradient(
+    to right top,
+    #473b7b 0%,
+    #3584a7 51%,
+    #30d2be 100%
+  );
+  --bg-color-2: linear-gradient(to bottom left, #cc208e 0%, #6713d2 100%);
+  --bg-color-3: linear-gradient(to top right, #e14fad 0%, #f9d423 100%);
+}
+
+.card {
+  color: #fff;
+}
+.card__btn {
+  color: #fff;
+  border-color: #fff;
+}
+.card--basic {
+  background-image: var(--bg-color-basic);
+}
+.card--standard {
+  background-image: var(--bg-color-2);
+}
+.card--premium {
+  background-image: var(--bg-color-3);
+}
