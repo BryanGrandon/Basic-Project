@@ -23,40 +23,36 @@ header {
   align-items: center;
   justify-content: space-between;
 }
-.logo a,
-.links li a,
-.action_btn,
-.dropdown_menu a {
-  text-decoration: none;
-  color: #fff;
-  font-size: 1rem;
-}
-.navbar .logo a:hover,
-.navbar .links a:hover,
-.dropdown_menu a:hover {
-  color: orange;
-}
-.dropdown_menu .action_btn:hover {
-  color: #fff;
-}
-.navbar .logo a {
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-.navbar .links {
+
+/* Links */
+.navbar__links {
   list-style: none;
   display: flex;
   gap: 2rem;
 }
-.navbar .toggle_btn {
+.link {
+  text-decoration: none;
+  font-size: 1rem;
+}
+.link__dropdown_menu,
+.link__navbar {
+  color: #fff;
+}
+.link__dropdown_menu:hover,
+.link__navbar:hover {
+  color: orange;
+}
+.link__navbar-logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.navbar__toggle_btn {
   color: #fff;
   font-size: 1.5rem;
   cursor: pointer;
   display: none;
 }
-.action_btn {
-  background-color: orange;
-  color: #fff;
+.button {
   padding: 0.5rem;
   border: none;
   outline: none;
@@ -66,12 +62,23 @@ header {
   cursor: pointer;
   transition: scale 0.2s ease;
 }
-.action_btn:hover {
+.button:hover {
   scale: 1.05;
 }
-.action_btn:active {
+.button:active {
   scale: 0.95;
 }
+.button__dropdown_menu,
+.button__navbar {
+  background-color: orange;
+  color: #fff;
+}
+.button__dropdown_menu:hover,
+.button__navbar:hover {
+  color: #fff;
+}
+
+/* Dropdown Menu */
 .dropdown_menu {
   display: none;
   position: absolute;
@@ -85,29 +92,31 @@ header {
   overflow: hidden;
   transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
-.dropdown_menu.open {
+.dropdown_menu--open {
   height: 240px;
 }
-.dropdown_menu li {
+.dropdown_menu__element {
   list-style: none;
   padding: 0.7rem;
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.dropdown_menu .action_btn {
+.button__dropdown_menu {
   width: 100%;
   display: flex;
   justify-content: center;
 }
-/* Responsive Design */
 
+/* Responsive Design */
 @media (max-width: 992px) {
-  .navbar .links,
-  .navbar .action_btn {
+  .link__navbar {
     display: none;
   }
-  .navbar .toggle_btn {
+  .link__navbar-logo {
+    display: block;
+  }
+  .navbar__toggle_btn {
     display: block;
   }
   .dropdown_menu {
@@ -120,7 +129,7 @@ header {
     width: unset;
   }
 }
-
+/* Main */
 .welcome {
   height: calc(100vh - 60px);
   display: flex;

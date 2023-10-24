@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Navbar</title>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bem.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
@@ -17,24 +17,43 @@
   <body>
     <header>
       <nav class="navbar">
-        <section class="logo"><a href="#">Logo</a></section>
-        <ul class="links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
+        <section class="navbar__logo">
+          <a href="#" class="link link__navbar link__navbar-logo">Logo</a>
+        </section>
+        <ul class="navbar__links">
+          <li><a href="#" class="link link__navbar">Home</a></li>
+          <li><a href="#" class="link link__navbar">About</a></li>
+          <li><a href="#" class="link link__navbar">Services</a></li>
+          <li><a href="#" class="link link__navbar">Contact</a></li>
         </ul>
-        <a href="#" class="action_btn">Get Started</a>
-        <section class="toggle_btn">
+        <a href="#" class="link link__navbar button button__navbar"
+          >Get Started</a
+        >
+        <section class="navbar__toggle_btn">
           <i class="fa-solid fa-bars"></i>
         </section>
       </nav>
       <section class="dropdown_menu">
-        <li><a href="#">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-        <li><a href="#" class="action_btn">Get Started</a></li>
+        <li class="dropdown_menu__element">
+          <a href="#" class="link link__dropdown_menu">Home</a>
+        </li>
+        <li class="dropdown_menu__element">
+          <a href="#" class="link link__dropdown_menu">About</a>
+        </li>
+        <li class="dropdown_menu__element">
+          <a href="#" class="link link__dropdown_menu">Services</a>
+        </li>
+        <li class="dropdown_menu__element">
+          <a href="#" class="link link__dropdown_menu">Contact</a>
+        </li>
+        <li class="dropdown_menu__element">
+          <a
+            href="#"
+            class="link link__dropdown_menu button button__dropdown_menu"
+          >
+            Get Started
+          </a>
+        </li>
       </section>
     </header>
     <main>
