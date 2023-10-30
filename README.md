@@ -20,3 +20,4 @@
 ## Apis
 
 - [JSON Placeholder](/projects/api/json-placeholder/users.js)
+- [PokeApi](/projects/api/pokeapi/script.js)
