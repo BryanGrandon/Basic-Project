@@ -1,6 +1,7 @@
 const url = "https://pokeapi.co/api/v2/pokemon/";
 const getRandomInt = (min, max) => {
-  return Math.floor(Math.random() * (max - min) + min);
+  const random = Math.floor(Math.random() * (max - min) + min);
+  return random;
 };
 
 const fetchData = async (url, random) => {
@@ -18,6 +19,13 @@ const fetchData = async (url, random) => {
 document.addEventListener("DOMContentLoaded", () => {
   const random = getRandomInt(1, 252);
   fetchData(url, random);
+  // Reload
+  const time = setInterval(() => {
+    location.reload();
+  }, 3000);
+  setTimeout(() => {
+    clearInterval(time);
+  }, 50000);
 });
 
 const pokemonData = (json) => {
