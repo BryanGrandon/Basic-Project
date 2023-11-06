@@ -3,8 +3,7 @@
 ## HTML
 
 - [Navbar Structure](/documents/html-docs/navbar-structure.md)
-- [kitty site demo](/projects/html/kitty-site-demo/page-1.html)
-- [Demo Contact Form](/projects/html/demo-contact-form/form.html)
+- [Forms](/documents/html-docs/forms-structure.md)
 
 ## CSS
 
