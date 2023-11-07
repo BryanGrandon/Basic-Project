@@ -11,9 +11,9 @@
 
 ## JS
 
-- [Countdown](/projects/javascript/countdown/index.html)
-- [Search Filter](/projects/javascript/search-filter/index.html)
-- [Navbar](/projects/javascript/navbar/index.html)
+- [website](/documents/javascript-docs/website.md)
+  <!-- [Countdown] -->
+  <!-- [Search Filter] -->
 
 ## Apis
 
