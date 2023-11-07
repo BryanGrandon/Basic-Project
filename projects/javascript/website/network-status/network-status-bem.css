@@ -9,9 +9,13 @@
   font-size: 1rem;
   font-weight: bold;
   text-align: center;
+}
+.online {
   background-color: #1b5e20;
   color: #fff;
 }
+
 .offline {
   background-color: #b71c1c;
+  color: #fff;
 }
