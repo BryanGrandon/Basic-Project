@@ -3,18 +3,19 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html {
   background-color: #e0e0e0;
 }
-.deviceInfo {
+.device_info {
   font-size: 18px;
   padding: 25px;
-
-  span {
-    color: red;
-    font-weight: bold;
-  }
 }
+.device_info__span {
+  color: red;
+  font-weight: bold;
+}
+
 .exclusive {
   padding: 5px;
   border: 1px solid #c4a;
