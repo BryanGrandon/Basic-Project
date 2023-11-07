@@ -6,16 +6,15 @@
 :root {
   --profile-card-color: #f0522a;
 }
-.profile-cards {
+.all_profile_cards {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   padding: 2rem;
   gap: 2rem;
 }
-
-/* Card */
-.profile-card {
+/*  */
+.profile_card {
   display: flex;
   border-radius: 20px;
   overflow: hidden;
@@ -23,9 +22,8 @@
   gap: 1rem;
   box-shadow: 1px 1px 5px #222;
 }
-
 /* Header */
-.profile-card__header {
+.profile_card__header {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
@@ -33,61 +31,60 @@
   width: 12rem;
   height: 12rem;
 }
-.profile-card__link-image {
+.header__link_image {
   display: block;
   border-radius: 50%;
   overflow: hidden;
   width: 8rem;
   height: 8rem;
 }
-.profile-card__image {
+.header__image {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.profile-card__name {
+.header__name {
   color: var(--profile-card-color);
 }
-.profile-card__job-position {
+.header__job_position {
   color: #353535;
 }
-/* hr */
-.profile-card__hr {
+/* HR */
+.profile_card__hr {
   display: block;
   border: 1Q ridge var(--profile-card-color);
 }
-
 /* Description */
-.profile-card__description {
+.profile_card__description {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   gap: 1rem;
 }
-.profile-card__text {
+.description__text {
   text-align: center;
   font-size: 0.9em;
   width: 25rem;
 }
-.profile-card__social {
+.description__social {
   display: flex;
   justify-content: center;
   gap: 2rem;
 }
-.profile-card__social-link {
+.social__link {
   display: inline-block;
   color: var(--profile-card-color);
 }
 
 @media (max-width: 720px) {
-  .profile-card {
+  .profile_card {
     flex-direction: column;
     align-items: center;
   }
-  .profile-card__text {
+  .description__text {
     width: 15rem;
   }
-  .profile-card__hr {
+  .profile_card__hr {
     width: 100%;
   }
 }
