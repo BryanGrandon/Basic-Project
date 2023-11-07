@@ -3,49 +3,43 @@
   padding: 0;
   box-sizing: border-box;
 }
-.cards {
-  padding: 50px;
+.all_pricing_cards {
   display: flex;
   justify-content: center;
-  gap: 20px;
   flex-wrap: wrap;
+  gap: 2rem;
+  padding: 2.5em;
 }
-
-.card {
+.pricing_card {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   width: 19em;
   gap: 0.5rem;
   overflow: hidden;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   box-shadow: 2px 2px 6px #222;
 }
-
-/* Element card for all */
-.card__element {
+/* Display Flex _ Flex Direction Colum - > df_fdc */
+.df_fdc {
   display: flex;
   flex-direction: column;
   /* border: 1px solid #000; */
 }
-.card__title {
+.pricing_card__title {
   font-size: 1.5em;
 }
-.card__text {
-  font-size: 1em;
-}
-
-/* header -> card header */
-.card__header {
+/* Header */
+.pricing_card__header {
   justify-content: center;
   height: 3.5rem;
   padding: 0 1rem;
 }
-/* article -> card price */
-.card__price {
+/* Article -> Price */
+.pricing_card__price {
   height: 3rem;
 }
-.card__price__element {
+.price_element {
   width: 14rem;
   height: inherit;
   display: flex;
@@ -55,62 +49,62 @@
   box-shadow: 2px 2px 5px #223;
   border-radius: 0 2rem 2rem 0;
 }
-.card__price__text {
+.price_text {
   background-position: center;
   background-clip: text;
   -webkit-background-clip: text;
   color: transparent;
 }
-/* article -> card benefits list */
-.card__benefits {
+.price_title {
+  font-size: 1.3em;
+}
+/* Benefits */
+.pricing_card__benefits {
   padding: 0.5rem 1rem;
   /* responsive? */
   min-height: 11rem;
 }
-.card__list {
+/* Lists */
+.pricing_card__list {
   list-style: none;
-  display: flex;
-  flex-direction: column;
   gap: 0.5rem;
 }
-.card__list__element {
+.pricing_card__list .list_element {
   display: flex;
   gap: 0.5rem;
   min-height: 1.5rem;
 }
-/* hr */
-.card__hr {
+.pricing_card__hr {
   position: relative;
   top: 0;
   left: 1rem;
   width: calc(100% - 2rem);
 }
-/* footer -> footer */
-.card__footer {
+/* Footer */
+.pricing_card__footer {
   align-items: center;
   justify-content: center;
   height: 4rem;
 }
-.btn {
+button {
   border-width: 1px;
-  border-radius: 2rem;
+  border-radius: 1.5rem;
   font-size: 1.2em;
   letter-spacing: 1px;
   padding: 0.5rem 1.5rem;
   cursor: pointer;
 }
-.card__btn {
+.pricing_card__btn {
   background-color: transparent;
   box-shadow: 1px 1px 5px #fff;
   transition: background 0.6s ease, color 0.6s ease;
 }
-.card__btn:hover {
+.pricing_card__btn:hover {
   box-shadow: 1px 1px 10px #fff;
   background: #fff;
   color: #000;
 }
-
-/* Colors */
+/* Color */
 :root {
   --bg-color-basic: linear-gradient(
     to right top,
@@ -122,19 +116,19 @@
   --bg-color-3: linear-gradient(to top right, #e14fad 0%, #f9d423 100%);
 }
 
-.card {
+.pricing_card {
   color: #fff;
 }
-.card__btn {
+.pricing_card__btn {
   color: #fff;
   border-color: #fff;
 }
-.card--basic {
+.pricing_card--basic {
   background-image: var(--bg-color-basic);
 }
-.card--standard {
+.pricing_card--standard {
   background-image: var(--bg-color-2);
 }
-.card--premium {
+.pricing_card--premium {
   background-image: var(--bg-color-3);
 }
