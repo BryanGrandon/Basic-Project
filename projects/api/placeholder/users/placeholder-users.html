@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JSON Placeholder Users</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="placeholder-users-bem.css" />
+    <!-- JS -->
+    <script src="placeholder-users-script.js" defer></script>
+    <!-- Icons -->
+    <script
+      src="https://kit.fontawesome.com/d5a0014502.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <main id="root"></main>
+    <template id="template__card">
+      <article class="user_card">
+        <section class="user_card__company">
+          <h3 class="user_card__company_name"></h3>
+        </section>
+
+        <section class="user_card__info">
+          <h3 class="user_card__info_name"></h3>
+          <hr />
+          <section class="user_card__info_section">
+            <i class="fa-solid fa-phone"></i>
+            <p class="user_card__info_section_phone"></p>
+          </section>
+
+          <section class="user_card__info_section">
+            <i class="fa-regular fa-envelope"></i>
+            <p class="user_card__info_section_email"></p>
+          </section>
+
+          <section class="user_card__info_section">
+            <i class="fa-solid fa-location-dot"></i>
+            <p class="user_card__info_section_address"></p>
+          </section>
+
+          <section class="user_card__info_section">
+            <i class="fa-solid fa-arrow-pointer"></i>
+            <a class="user_card__info_section_website"></a>
+          </section>
+        </section>
+      </article>
+    </template>
+  </body>
+</html>
