@@ -1,5 +1,3 @@
-# Projects
-
 ## HTML
 
 - [Navbar Structure](/documents/html-docs/navbar-structure.md)
@@ -9,11 +7,11 @@
 
 - [Cards Styles](/documents/css-docs/cards-styles.md)
 
-## JS
+## JavaScript
 
-- [website](/documents/javascript-docs/website.md)
+- [Website](/documents/javascript-docs/website.md)
+- [Search](/documents/javascript-docs/search.md)
   <!-- [Countdown] -->
-  <!-- [Search Filter] -->
 
 ## Apis
 

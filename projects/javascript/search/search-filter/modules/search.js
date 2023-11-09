@@ -3,7 +3,6 @@ export function searchFilter(input, selector) {
     if (e.target.matches(input)) {
       if (e.key === "Escape") e.target.value = "";
       document.querySelectorAll(selector).forEach((el) => {
-        console.log(el.textContent);
         el.textContent.toLowerCase().includes(e.target.value)
           ? el.classList.remove("filter")
           : el.classList.add("filter");
