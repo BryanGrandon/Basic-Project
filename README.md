@@ -11,7 +11,7 @@
 
 - [Website](/documents/javascript-docs/website.md)
 - [Search](/documents/javascript-docs/search.md)
-  <!-- [Countdown] -->
+  [Countdown](/projects/javascript/countdown/index.html)
 
 ## Apis
 
