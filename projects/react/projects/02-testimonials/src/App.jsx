@@ -1,3 +1,4 @@
+import "./styles/App.css";
 import Testimonial from "./components/Testimonial";
 
 const info = [
@@ -12,7 +13,9 @@ const info = [
 function App() {
   return (
     <>
-      <Testimonial />
+      <article className="testimonial-cards">
+        <Testimonial />
+      </article>
     </>
   );
 }
