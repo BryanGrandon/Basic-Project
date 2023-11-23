@@ -1,9 +1,9 @@
 .testimonial-card {
   display: flex;
   flex-direction: column;
-  border: 1px solid #000;
   border-radius: 1rem;
   overflow: hidden;
+  box-shadow: 2px 2px 5px #444;
 }
 
 /* Image */
@@ -27,15 +27,15 @@
 }
 .information__name-country {
   font-size: 1.1rem;
-  text-transform: capitalize;
 }
 .information__name,
-.information__country {
+.information__country,
+.information__job-position,
+.information__company {
   text-transform: capitalize;
 }
-.information__job-position {
-  font-size: 1.05rem;
-  text-transform: capitalize;
+.information__job-company {
+  font-size: 1rem;
 }
 .information__testimonial {
   padding: 1rem 0;
@@ -54,10 +54,10 @@
     padding: 1.5rem;
   }
   .information__name-country {
-    font-size: 1.3rem;
-  }
-  .information__job-position {
     font-size: 1.2rem;
+  }
+  .information__job-company {
+    font-size: 1.1rem;
   }
   .information__testimonial {
     text-align: justify;

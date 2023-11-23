@@ -22,3 +22,4 @@
 ## React
 
 - [Twitter Follow Card](/projects/react/projects/01-twitter-follow-card/)
+- [Testimonial](/projects/react/projects/02-testimonials/)

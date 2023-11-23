@@ -13,7 +13,13 @@ function Testimonial(props) {
           in
           <span className="information__country"> {props.country}</span>
         </p>
-        <p className="information__job-position">{props.jobPosition}</p>
+        <p className="information__job-company">
+          <span className="information__job-position">
+            {props.jobPosition}{" "}
+          </span>
+          at
+          <span className="information__company"> {props.company}</span>
+        </p>
         <p className="information__testimonial">{props.testimonial}</p>
       </section>
     </article>
