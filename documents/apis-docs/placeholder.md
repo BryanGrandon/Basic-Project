@@ -11,7 +11,7 @@ https://jsonplaceholder.typicode.com/
 | /todos    | 200      |
 | /users    | 10       |
 
-## [Users](/projects/api/placeholder/user/index.html)
+## [Users](/api/placeholder/user/index.html)
 
 - address
 - company
