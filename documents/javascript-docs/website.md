@@ -1,5 +1,5 @@
 # Website
 
-- [Navbar](/projects/javascript/website/navbar/navbar.html)
-- [Network Status](/projects/javascript/website/network-status/network-status.html)
-- [Device Detection](/projects/javascript/website/device-detection/device-detection.html)
+- [Navbar](/javascript/website/navbar/navbar.html)
+- [Network Status](/javascript/website/network-status/network-status.html)
+- [Device Detection](/javascript/website/device-detection/device-detection.html)

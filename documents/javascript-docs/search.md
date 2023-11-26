@@ -1,3 +1,3 @@
 # Search
 
-[Search Filter](/projects/javascript/search/search-filter/)
+[Search Filter](/javascript/search/search-filter/)
