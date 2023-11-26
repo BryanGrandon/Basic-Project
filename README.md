@@ -16,8 +16,8 @@
 
 ## Apis
 
-- [JSON Placeholder](/projects/api/json-placeholder/users.js)
-- [PokeApi](/projects/api/pokeapi/script.js)
+- [JSON Placeholder](/api/json-placeholder/users.js)
+- [PokeApi](/api/pokeapi/script.js)
 
 ## React
 
