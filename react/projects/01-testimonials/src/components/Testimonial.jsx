@@ -4,7 +4,7 @@ function Testimonial(props) {
   return (
     <article className="testimonial-card">
       <section className="testimonial-card__image-container">
-        <img src="" alt="" className="image" />
+        <img src={props.image} alt={props.name} className="image" />
       </section>
       <section className="testimonial-card__information">
         <p className="information__text">
@@ -20,5 +20,4 @@ function Testimonial(props) {
     </article>
   );
 }
-
 export default Testimonial;
