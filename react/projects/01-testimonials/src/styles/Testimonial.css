@@ -1,0 +1,55 @@
+.testimonial-card {
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  border: 2px solid #444;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+.testimonial-card__image-container {
+  display: flex;
+}
+.image {
+  width: 100%;
+  object-fit: cover;
+}
+.testimonial-card__information {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  padding: 1rem;
+}
+.information__text {
+  text-align: center;
+}
+.information__name,
+.information__country,
+.information__job-position,
+.information__company {
+  text-transform: capitalize;
+  font-weight: 500;
+}
+.information__testimonial {
+  padding: 1rem 0;
+  text-align: start;
+}
+@media screen and (min-width: 1020px) {
+  .testimonial-card {
+    flex-direction: row;
+    width: 55rem;
+    height: 13rem;
+  }
+  .testimonial-card__information {
+    width: 100%;
+    justify-content: center;
+  }
+  .testimonial-card__image-container {
+    width: 23rem;
+  }
+  .information__name,
+  .information__country,
+  .information__job-position,
+  .information__company {
+    font-size: 1.1rem;
+  }
+}

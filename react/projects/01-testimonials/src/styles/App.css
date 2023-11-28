@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  font-size: 18px;
+  font-family: system-ui, sans-serif;
+}
+.testimonial__title {
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 1px;
+  font-size: 2rem;
+  padding: 1rem 0 2rem;
+}
+.testimonial__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+  padding: 0 1rem;
+}
+@media screen and (min-width: 1020) {
+  .testimonial {
+    margin: auto;
+  }
+}
