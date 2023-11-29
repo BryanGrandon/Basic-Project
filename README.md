@@ -21,6 +21,5 @@
 
 ## React
 
-- [Twitter Follow Card](/projects/react/projects/01-twitter-follow-card/)
-- [Testimonial](/projects/react/projects/02-testimonials/)
-- [Counter](/projects/react/projects/03-click-counter/)
+- [01-Testimonial](/react/projects/01-testimonials/)
+<!-- - [02-Click-Counter](/react/projects/02-click-counter/) -->
