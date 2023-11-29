@@ -22,4 +22,4 @@
 ## React
 
 - [01-Testimonial](/react/projects/01-testimonials/)
-<!-- - [02-Click-Counter](/react/projects/02-click-counter/) -->
+- [02-Click-Counter](/react/projects/02-click-counter/)
