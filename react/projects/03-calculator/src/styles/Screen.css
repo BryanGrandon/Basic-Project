@@ -1,0 +1,14 @@
+.screen__input {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 5rem;
+  border-radius: 2rem;
+  padding: 0.3rem 1rem 0.3rem 0.3rem;
+  background-color: #67568c;
+  border: 2px solid #1f1235;
+  box-shadow: 1px 1px 3px #67568c;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #fff;
+}
