@@ -1,6 +1,6 @@
 # Placeholder
 
-https://jsonplaceholder.typicode.com/
+- [Website ](https://jsonplaceholder.typicode.com/)
 
 | Resources | Quantity |
 | --------- | -------- |
@@ -11,7 +11,9 @@ https://jsonplaceholder.typicode.com/
 | /todos    | 200      |
 | /users    | 10       |
 
-## [Users](/api/placeholder/user/index.html)
+## [Users](/api/placeholder/users/)
+
+Information used in the project:
 
 - address
 - company
