@@ -23,3 +23,4 @@
 
 - [01-Testimonial](/react/projects/01-testimonials/)
 - [02-Click-Counter](/react/projects/02-click-counter/)
+- [03-Calculator](/react/projects/03-calculator/)
