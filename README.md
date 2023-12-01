@@ -25,7 +25,7 @@ Different JavaScript projects to learn
 Use of different Apis for learning
 
 - [JSON Placeholder](/documents/apis-docs/placeholder.md)
-- [PokeApi](/documents/apis-docs/)
+- [PokeApi](/documents/apis-docs/pokeapi.md)
 
 ## React
 
