@@ -23,3 +23,12 @@ Information used in the project:
 - phone
 - username
 - website
+
+## [Photos](/api/placeholder/photos/)
+
+Information used in the project:
+
+- 100 Photos
+- url
+- id
+- title
