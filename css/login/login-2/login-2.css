@@ -1,0 +1,103 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url("https://cdn.pixabay.com/photo/2016/05/24/16/48/mountains-1412683_1280.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-size: 18px;
+  font-family: cursive;
+}
+.login {
+  border: 3px solid #ff6e6c;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  width: 20rem;
+  box-shadow: 1px 1px 4px #1f1235;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.253);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(8.6px);
+  -webkit-backdrop-filter: blur(8.6px);
+  border: 1px solid rgba(255, 255, 255, 0.81);
+}
+.login__logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo__center {
+  padding: 1rem;
+  font-size: 4rem;
+  color: #67568c;
+}
+.login__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+}
+.form__email,
+.form__password {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.form__label {
+  color: #67568c;
+}
+.from__input {
+  width: 100%;
+  border: none;
+  background: none;
+  border-radius: 0.3rem;
+  padding: 0.3rem 0.6rem;
+  box-shadow: 1px 1px 3px #1f1235;
+}
+.from__input::placeholder {
+  color: #1f1235;
+}
+.from__input:focus {
+  outline: 2px solid #ff6e6c;
+}
+.form__options {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.9rem;
+}
+.options__remember-me {
+  display: flex;
+  gap: 0.2rem;
+}
+.button {
+  border: none;
+  box-shadow: 1px 1px 4px #1f1235;
+  font-size: 1rem;
+  border-radius: 1rem;
+  padding: 0.4rem 1rem;
+  cursor: pointer;
+}
+.button:hover {
+  box-shadow: 1px 1px 4px #1f1235 inset;
+}
+.button__login {
+  background-color: #ff6e6c;
+  font-family: cursive;
+}
+.from__register {
+  font-size: 0.9rem;
+}
+.options__forgot-password,
+.register__link {
+  text-decoration: none;
+}
+.options__forgot-password:hover,
+.register__link:hover {
+  color: #fbdd74;
+}
