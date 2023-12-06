@@ -1,0 +1,18 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+/* 
+    Allows us to apply styles depending on whether the user determines
+    a light or dark theme in their operating system. 
+*/
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: #1f1235;
+    color: #fff;
+  }
+  body::after {
+    content: "Dark Mode";
+  }
+}

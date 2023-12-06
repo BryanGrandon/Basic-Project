@@ -12,6 +12,7 @@ Different CSS projects to learns
 - Pricing Card
 - Profile Card
 - Login
+- Dark Mode
 
 ## [JavaScript](/documents/js.md)
 
