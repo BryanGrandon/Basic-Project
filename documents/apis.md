@@ -1,60 +1,17 @@
 ## Placeholder
 
-- [Website ](https://jsonplaceholder.typicode.com/)
+( [JsonPlaceholder.com](https://jsonplaceholder.typicode.com/) ) Free fake API for testing and prototyping.
 
-| Resources | Quantity |
-| --------- | -------- |
-| /posts    | 100      |
-| /comments | 500      |
-| /albums   | 100      |
-| /photos   | 5000     |
-| /todo(s)  | 200      |
-| /users    | 10       |
+### Projects
 
-### [Users](/api/placeholder/users/)
-
-Information used in the project:
-
-- address
-- company
-- email
-- id
-- name
-- phone
-- username
-- website
-
-### [Photos](/api/placeholder/photos/)
-
-Information used in the project:
-
-- 100 Photos
-- url
-- id
-- title
-
-### [Posts](/api/placeholder/posts/)
-
-Information used in the project:
-
-- title
-- body
+- [Users](/api/placeholder/users/)
+- [Photos](/api/placeholder/photos/)
+- [Posts](/api/placeholder/posts/)
 
 ## PokeAPI
 
-All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
+( [PokeApi.co](https://pokeapi.co/) ) All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
 
-- [PokeAPI](https://pokeapi.co/)
+### Projects
 
-### [Pokemon Card](/api/pokeapi/)
-
-Information used in the project:
-
-- Name
-- Number
-- svg
-- Stats:
-  - hp
-  - attack
-  - defense
-  - speed
+- [Pokemon Card](/api/pokeapi/)
