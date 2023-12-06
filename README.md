@@ -9,7 +9,8 @@ Different HTML projects to learn
 
 Different CSS projects to learns
 
-- Cards Styles
+- Pricing Card
+- Profile Card
 - Login
 
 ## [JavaScript](/documents/js.md)
