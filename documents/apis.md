@@ -1,4 +1,4 @@
-# Placeholder
+## Placeholder
 
 - [Website ](https://jsonplaceholder.typicode.com/)
 
@@ -11,7 +11,7 @@
 | /todo(s)  | 200      |
 | /users    | 10       |
 
-## [Users](/api/placeholder/users/)
+### [Users](/api/placeholder/users/)
 
 Information used in the project:
 
@@ -24,7 +24,7 @@ Information used in the project:
 - username
 - website
 
-## [Photos](/api/placeholder/photos/)
+### [Photos](/api/placeholder/photos/)
 
 Information used in the project:
 
@@ -33,9 +33,28 @@ Information used in the project:
 - id
 - title
 
-## [Posts](/api/placeholder/posts/)
+### [Posts](/api/placeholder/posts/)
 
 Information used in the project:
 
 - title
 - body
+
+## PokeAPI
+
+All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
+
+- [PokeAPI](https://pokeapi.co/)
+
+### [Pokemon Card](/api/pokeapi/)
+
+Information used in the project:
+
+- Name
+- Number
+- svg
+- Stats:
+  - hp
+  - attack
+  - defense
+  - speed

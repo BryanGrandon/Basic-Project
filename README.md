@@ -1,31 +1,33 @@
-## HTML
+## [HTML](/documents/html.md)
 
 Different HTML projects to learn
 
-- [Navbar Structure](/documents/html-docs/navbar-structure.md)
-- [Forms](/documents/html-docs/forms-structure.md)
+- Navbar Structure
+- Forms
 
-## CSS
+## [CSS](/documents/css.md)
 
 Different CSS projects to learns
 
-- [Cards Styles](/documents/css-docs/cards-styles.md)
-- [Login](/documents/css-docs/logins-styles.md)
+- Cards Styles
+- Login
 
-## JavaScript
+## [JavaScript](/documents/js.md)
 
 Different JavaScript projects to learn
 
-- [Website](/documents/javascript-docs/website.md)
-- [Search](/documents/javascript-docs/search.md)
-  [Countdown](/projects/javascript/countdown/index.html)
+- Navbar
+- Network Status
+- Device Detection
+- Search
+- Countdown
 
-## Apis
+## [Apis](/documents/apis.md)
 
 Use of different Apis for learning
 
-- [JSON Placeholder](/documents/apis-docs/placeholder.md)
-- [PokeApi](/documents/apis-docs/pokeapi.md)
+- JSON Placeholder
+- PokeApi
 
 ## React
 
