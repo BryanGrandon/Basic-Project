@@ -21,7 +21,7 @@ Different JavaScript projects to learn
 - Navbar
 - Network Status
 - Device Detection
-- Search
+- Search Filter
 - Countdown
 
 ## [Apis](/documents/apis.md)
