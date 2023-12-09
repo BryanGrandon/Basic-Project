@@ -1,39 +1,55 @@
-## [HTML](/documents/html.md)
+# Project
 
-Different HTML projects to learn
+## _Index_
 
-- Navbar Structure
-- Forms
+- [Introduction](#introduction)
+- [HTML](#html)
+- [CSS](#css)
+- [JavaScript](#javascript)
+- [API](#apis)
+- [React](#react)
 
-## [CSS](/documents/css.md)
+## _Introduction_
 
-Different CSS projects to learns
+In this project, i add different simple projects with different technologies
 
-- Pricing Card
-- Profile Card
-- Login
-- Dark Mode
+## _HTML_
 
-## [JavaScript](/documents/js.md)
+- [Type 1 Structure](/html/navbar-structure/navbar-1.html)
+- [Contact Form](/html/forms-structure/contact-form/contact.html)
 
-Different JavaScript projects to learn
+## _CSS_
 
-- Navbar
-- Network Status
-- Device Detection
-- Search Filter
-- Countdown
+- [Pricing Cards](/css/pricing-card/pricing-card.html)
+- [Profile Card](/css/profile-card/profile-card.html)
+- [Login 1](/css/login/login.html)
+- [Dark Mode](/css/dark-mode/dark-mode-bem.css)
 
-## [Apis](/documents/apis.md)
+## _JavaScript_
 
-Use of different Apis for learning
+- [Navbar](/javascript/navbar/navbar.html)
+- [Network Status](/javascript/network-status/network-status.html)
+- [Device Detection](/javascript/device-detection/device-detection.html)
+- [Search Filter](/javascript/search-filter/)
+- [Countdown](/projects/javascript/countdown/index.html)
 
-- JSON Placeholder
-- PokeApi
+## _Apis_
 
-## React
+### [JSON Placeholder](https://jsonplaceholder.typicode.com/)
 
-Using vite to create React projects for learning
+Free fake API for testing and prototyping.
+
+- [Users](/api/placeholder/users/)
+- [Photos](/api/placeholder/photos/)
+- [Posts](/api/placeholder/posts/)
+
+### [PokeApi](https://pokeapi.co/)
+
+All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
+
+- [Pokemon Card](/api/pokeapi/)
+
+## _React_
 
 - [01-Testimonial](/react/projects/01-testimonials/)
 - [02-Click-Counter](/react/projects/02-click-counter/)
