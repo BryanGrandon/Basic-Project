@@ -25,14 +25,6 @@ In this project, i add different simple projects with different technologies
 - [Login 1](/css/login/login.html)
 - [Dark Mode](/css/dark-mode/dark-mode-bem.css)
 
-## _JavaScript_
-
-- [Navbar](/javascript/navbar/navbar.html)
-- [Network Status](/javascript/network-status/network-status.html)
-- [Device Detection](/javascript/device-detection/device-detection.html)
-- [Search Filter](/javascript/search-filter/)
-- [Countdown](/projects/javascript/countdown/index.html)
-
 ## _Apis_
 
 ### [JSON Placeholder](https://jsonplaceholder.typicode.com/)
