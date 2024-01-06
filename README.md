@@ -1,29 +1,7 @@
 # Project
 
-## _Index_
-
-- [Introduction](#introduction)
-- [HTML](#html)
-- [CSS](#css)
-- [JavaScript](#javascript)
 - [API](#apis)
 - [React](#react)
-
-## _Introduction_
-
-In this project, i add different simple projects with different technologies
-
-## _HTML_
-
-- [Type 1 Structure](/html/navbar-structure/navbar-1.html)
-- [Contact Form](/html/forms-structure/contact-form/contact.html)
-
-## _CSS_
-
-- [Pricing Cards](/css/pricing-card/pricing-card.html)
-- [Profile Card](/css/profile-card/profile-card.html)
-- [Login 1](/css/login/login.html)
-- [Dark Mode](/css/dark-mode/dark-mode-bem.css)
 
 ## _Apis_
 
