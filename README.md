@@ -5,14 +5,6 @@
 
 ## _Apis_
 
-### [JSON Placeholder](https://jsonplaceholder.typicode.com/)
-
-Free fake API for testing and prototyping.
-
-- [Users](/api/placeholder/users/)
-- [Photos](/api/placeholder/photos/)
-- [Posts](/api/placeholder/posts/)
-
 ### [PokeApi](https://pokeapi.co/)
 
 All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
