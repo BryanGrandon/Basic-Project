@@ -1,18 +1,7 @@
-# Project
+# Problems
 
-- [API](#apis)
-- [React](#react)
+## Tip Calculator
 
-## _Apis_
+The objective is to build a modern tip calculator.
 
-### [PokeApi](https://pokeapi.co/)
-
-All the pokemon data you'll ever need in one place easily accessible through a modern RESTful API
-
-- [Pokemon Card](/api/pokeapi/)
-
-## _React_
-
-- [01-Testimonial](/react/projects/01-testimonials/)
-- [02-Click-Counter](/react/projects/02-click-counter/)
-- [03-Calculator](/react/projects/03-calculator/)
+- [code](/javascript/01-tip-calculator.js)
