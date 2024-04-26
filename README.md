@@ -8,6 +8,7 @@ Problems are a way to practice a programming language.
 - [Tip calculator](#tip-calculator)
 - [Age calculator](#age-calculator)
 - [Generate color](#generate-color)
+- [Caesar cipher](#caesar-cipher)
 
 ## Introduction
 
@@ -44,5 +45,13 @@ The objective is to create a function that calculates the age.
 The objective is to create a function that generates hexadecimal colors.
 
 [![JS](/assets/svg/js.svg)](/javascript/03-generate-color.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Caesar cipher
+
+It is a type of substitution cipher in which a letter in the original text is replaced by another letter that is a fixed number of positions later in the alphabet.
+
+[![JS](/assets/svg/js.svg)](/javascript/04-caesar-cipher.js)
 
 [⬆️ Back to top ⬆️](#problems)
