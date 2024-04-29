@@ -9,6 +9,7 @@ Problems are a way to practice a programming language.
 - [Age calculator](#age-calculator)
 - [Generate color](#generate-color)
 - [Caesar cipher](#caesar-cipher)
+- [Rock Paper Scissors Game](#rock-paper-scissors-game)
 
 ## Introduction
 
@@ -55,3 +56,9 @@ It is a type of substitution cipher in which a letter in the original text is re
 [![JS](/assets/svg/js.svg)](/javascript/04-caesar-cipher.js)
 
 [⬆️ Back to top ⬆️](#problems)
+
+## Rock Paper Scissors Game
+
+The objective is to create a function that chooses between rock, paper or scissors and shows who won.
+
+[![JS](/assets/svg/js.svg)](/javascript/05-rock-paper-scissors-game.js)
