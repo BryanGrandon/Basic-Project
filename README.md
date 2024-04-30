@@ -11,6 +11,7 @@ Problems are a way to practice a programming language.
 - [Caesar cipher](#caesar-cipher)
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
 - [Temperature Converter](#temperature-converter)
+- [Fibonacci](#fibonacci)
 
 ## Introduction
 
@@ -79,5 +80,13 @@ The objective is to create a function that is to create a temperature converter 
 The objective is to create a function that is to create a Countdown.
 
 [![JS](/assets/svg/js.svg)](/javascript/07-countdown.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Fibonacci
+
+In mathematics, the Fibonacci sequence is an infinite series of natural numbers that starts with a 0 and a 1 and continues adding numbers that are the sum of the two previous numbers.
+
+[![JS](/assets/svg/js.svg)](/javascript/08-fibonacci.js)
 
 [⬆️ Back to top ⬆️](#problems)
