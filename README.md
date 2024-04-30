@@ -12,6 +12,7 @@ Problems are a way to practice a programming language.
 - [Rock Paper Scissors Game](#rock-paper-scissors-game)
 - [Temperature Converter](#temperature-converter)
 - [Fibonacci](#fibonacci)
+- [Palindrome](#palindrome)
 
 ## Introduction
 
@@ -88,5 +89,13 @@ The objective is to create a function that is to create a Countdown.
 In mathematics, the Fibonacci sequence is an infinite series of natural numbers that starts with a 0 and a 1 and continues adding numbers that are the sum of the two previous numbers.
 
 [![JS](/assets/svg/js.svg)](/javascript/08-fibonacci.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Palindrome
+
+Word or phrase whose letters are arranged in such a way that they are the same when read from left to right as when read from right to left.
+
+[![JS](/assets/svg/js.svg)](/javascript/09-palindrome.js)
 
 [⬆️ Back to top ⬆️](#problems)
