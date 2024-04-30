@@ -73,3 +73,11 @@ The objective is to create a function that is to create a temperature converter 
 [![JS](/assets/svg/js.svg)](/javascript/06-temperature-converter.js)
 
 [⬆️ Back to top ⬆️](#problems)
+
+## Countdown
+
+The objective is to create a function that is to create a Countdown.
+
+[![JS](/assets/svg/js.svg)](/javascript/07-countdown.js)
+
+[⬆️ Back to top ⬆️](#problems)
