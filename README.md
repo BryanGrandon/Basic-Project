@@ -14,6 +14,7 @@ Problems are a way to practice a programming language.
 - [Fibonacci](#fibonacci)
 - [Palindrome](#palindrome)
 - [Password generator](#password-generator)
+- [Number to binary converter](#number-to-binary-converter)
 
 ## Introduction
 
@@ -106,5 +107,13 @@ Word or phrase whose letters are arranged in such a way that they are the same w
 The objective is to create a function that is to create a password generator
 
 [![JS](/assets/svg/js.svg)](/javascript/10-password-generator.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Number to binary converter
+
+The objective is to create a function that is to create a number to binary converter.
+
+[![JS](/assets/svg/js.svg)](/javascript/11-number-to-binary-converter.js)
 
 [⬆️ Back to top ⬆️](#problems)
