@@ -32,7 +32,7 @@ In order to be able to execute the codes of the programming languages I recommen
 
 ## Tip calculator
 
-The objective is to create a function that calculates tips.
+Create a function that calculates tips.
 
 [![JS](/assets/svg/js.svg)](/javascript/01-tip-calculator.js)
 
@@ -40,7 +40,7 @@ The objective is to create a function that calculates tips.
 
 ## Age calculator
 
-The objective is to create a function that calculates the age.
+Create a function that calculates age by date of birth
 
 [![JS](/assets/svg/js.svg)](/javascript/02-age-calculator.js)
 
@@ -48,7 +48,7 @@ The objective is to create a function that calculates the age.
 
 ## Generate color
 
-The objective is to create a function that generates hexadecimal colors.
+Create a function to generate hexadecimal colors.
 
 [![JS](/assets/svg/js.svg)](/javascript/03-generate-color.js)
 
@@ -56,7 +56,7 @@ The objective is to create a function that generates hexadecimal colors.
 
 ## Caesar cipher
 
-It is a type of substitution cipher in which a letter in the original text is replaced by another letter that is a fixed number of positions later in the alphabet.
+Create a Caesar cipher function, which is a type of substitution cipher in which one letter of the original text is replaced by another letter that is a fixed number of positions further on in the alphabet.
 
 [![JS](/assets/svg/js.svg)](/javascript/04-caesar-cipher.js)
 
@@ -64,7 +64,7 @@ It is a type of substitution cipher in which a letter in the original text is re
 
 ## Rock Paper Scissors Game.
 
-The objective is to create a function that chooses between rock, paper or scissors and shows who won.
+Create a function that chooses between rock, paper, scissors and shows who has won.
 
 [![JS](/assets/svg/js.svg)](/javascript/05-rock-paper-scissors-game.js)
 
@@ -72,7 +72,7 @@ The objective is to create a function that chooses between rock, paper or scisso
 
 ## Temperature Converter.
 
-The objective is to create a function that is to create a temperature converter for Celsius, Fahrenheit, and Kelvin.
+Create a function that allows to display the temperature in Celsius, Fahrenheit and Kelvin.
 
 [![JS](/assets/svg/js.svg)](/javascript/06-temperature-converter.js)
 
@@ -80,7 +80,7 @@ The objective is to create a function that is to create a temperature converter 
 
 ## Countdown.
 
-The objective is to create a function that is to create a Countdown.
+Create a function that allows us to have a Countdown.
 
 [![JS](/assets/svg/js.svg)](/javascript/07-countdown.js)
 
@@ -88,7 +88,7 @@ The objective is to create a function that is to create a Countdown.
 
 ## Fibonacci.
 
-In mathematics, the Fibonacci sequence is an infinite series of natural numbers that starts with a 0 and a 1 and continues adding numbers that are the sum of the two previous numbers.
+Create a function that shows us the fibonacci sequence which is a mathematical series in which each number is the sum of the two previous ones: 0, 1, 1, 1, 2, 3, 3, 5, 8, 13, 21, 34, ... and so on.
 
 [![JS](/assets/svg/js.svg)](/javascript/08-fibonacci.js)
 
@@ -96,7 +96,7 @@ In mathematics, the Fibonacci sequence is an infinite series of natural numbers 
 
 ## Palindrome.
 
-Word or phrase whose letters are arranged in such a way that they are the same when read from left to right as when read from right to left.
+Create a function that allows to know if the delivered text is a palindrome which is a word or phrase whose letters are arranged in such a way that they are the same when read from left to right as when read from right to left.
 
 [![JS](/assets/svg/js.svg)](/javascript/09-palindrome.js)
 
@@ -104,7 +104,7 @@ Word or phrase whose letters are arranged in such a way that they are the same w
 
 ## Password generator.
 
-The objective is to create a function that is to create a password generator
+Create a function that can generate a password using the alphabet, numbers and symbols.
 
 [![JS](/assets/svg/js.svg)](/javascript/10-password-generator.js)
 
@@ -112,7 +112,7 @@ The objective is to create a function that is to create a password generator
 
 ## Number to binary converter
 
-The objective is to create a function that is to create a number to binary converter.
+Creates a function that converts a number to its binary representation.
 
 [![JS](/assets/svg/js.svg)](/javascript/11-number-to-binary-converter.js)
 
