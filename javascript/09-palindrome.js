@@ -1,15 +1,26 @@
-const palindrome = (string) => {
-  let text = string;
-  if (typeof string !== "string") {
+const palindrome = (text) => {
+  let conditional = typeof text == "number" || typeof text == "string";
+  let originalText = conditional ? String(text).toLocaleLowerCase() : null;
+
+  if (originalText == null) {
     console.error("The value delivered is not valid.");
-    return null;
+    // return null;
+    return "The value delivered is not valid.";
   }
-  const invertedText = text.toLowerCase().split("").reverse().join("");
-  const isPalindrome = text.toLowerCase() == invertedText ? true : false;
-  return isPalindrome;
+
+  const invertedText = originalText.split("").reverse().join("");
+  const isPalindrome = originalText == invertedText ? true : false;
+
+  // return isPalindrome; // True or False
+  return isPalindrome ? "Is a Palindrome" : "Is not a Palindrome"; // Text
 };
 
-console.log(palindrome("Level"));
-console.log(palindrome("Example"));
-console.log("-------------------");
-console.log(palindrome(21));
+const example = {
+  21: palindrome(21),
+  22: palindrome(22),
+  level: palindrome("Level"),
+  example: palindrome("Example"),
+  array: palindrome([1]),
+};
+
+console.table(example);
