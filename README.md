@@ -15,6 +15,7 @@ Problems are a way to practice a programming language.
 - [Palindrome](#palindrome)
 - [Password generator](#password-generator)
 - [Number to binary converter](#number-to-binary-converter)
+- [The famous Fizz Buzz](#the-famous-fizz-buzz)
 
 ## Introduction
 
@@ -115,5 +116,17 @@ Create a function that can generate a password using the alphabet, numbers and s
 Creates a function that converts a number to its binary representation.
 
 [![JS](/assets/svg/js.svg)](/javascript/11-number-to-binary-converter.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## The famous Fizz Buzz
+
+Write a program that displays by console the numbers from 1 to 100 (both included with a line break between each print), substituting the following:
+
+- Multiples of 3 by the word "fizz".
+- Multiples of 5 for the word "buzz".
+- Multiples of 3 and 5 at the same time for the word "fizzBuzz".
+
+[![JS](/assets/svg/js.svg)](/javascript/12-fizz-buzz.js)
 
 [⬆️ Back to top ⬆️](#problems)
