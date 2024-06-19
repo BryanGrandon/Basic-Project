@@ -16,6 +16,7 @@ Problems are a way to practice a programming language.
 - [Password generator](#password-generator)
 - [Number to binary converter](#number-to-binary-converter)
 - [The famous Fizz Buzz](#the-famous-fizz-buzz)
+- [Prime number](#prime-number)
 
 ## Introduction
 
@@ -128,5 +129,15 @@ Write a program that displays by console the numbers from 1 to 100 (both include
 - Multiples of 3 and 5 at the same time for the word "fizzBuzz".
 
 [![JS](/assets/svg/js.svg)](/javascript/12-fizz-buzz.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Prime number
+
+Write a program that takes care of checking whether a number is prime or not.
+
+- Once this is done, print the prime numbers between 1 and 100.
+
+[![JS](/assets/svg/js.svg)](/javascript/13-prime-number.js)
 
 [⬆️ Back to top ⬆️](#problems)
