@@ -18,6 +18,7 @@ Problems are a way to practice a programming language.
 - [The famous Fizz Buzz](#the-famous-fizz-buzz)
 - [Prime number](#prime-number)
 - [Morse code](#morse-code)
+- [Anagram](#anagram)
 
 ## Introduction
 
@@ -148,5 +149,17 @@ Write a program that takes care of checking whether a number is prime or not.
 Create a program that is able to transform natural text to morse code and vice versa.
 
 [![JS](/assets/svg/js.svg)](/javascript/14-morse-code.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Anagram
+
+Write a function that receives two words (String) and returns true or false (Bool) depending on whether they are anagrams or not.
+An Anagram consists of forming a word by rearranging ALL the letters of another initial word.
+
+- It is NOT necessary to check that both words exist.
+- Two words that are exactly the same are not anagrams
+
+[![JS](/assets/svg/js.svg)](/javascript/15-anagram.js)
 
 [⬆️ Back to top ⬆️](#problems)
