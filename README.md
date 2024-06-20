@@ -17,6 +17,7 @@ Problems are a way to practice a programming language.
 - [Number to binary converter](#number-to-binary-converter)
 - [The famous Fizz Buzz](#the-famous-fizz-buzz)
 - [Prime number](#prime-number)
+- [Morse code](#morse-code)
 
 ## Introduction
 
@@ -139,5 +140,13 @@ Write a program that takes care of checking whether a number is prime or not.
 - Once this is done, print the prime numbers between 1 and 100.
 
 [![JS](/assets/svg/js.svg)](/javascript/13-prime-number.js)
+
+[⬆️ Back to top ⬆️](#problems)
+
+## Morse code
+
+Create a program that is able to transform natural text to morse code and vice versa.
+
+[![JS](/assets/svg/js.svg)](/javascript/14-morse-code.js)
 
 [⬆️ Back to top ⬆️](#problems)
