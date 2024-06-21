@@ -163,3 +163,13 @@ An Anagram consists of forming a word by rearranging ALL the letters of another 
 [![JS](/assets/svg/js.svg)](/javascript/15-anagram.js)
 
 [⬆️ Back to top ⬆️](#problems)
+
+## Order the list
+
+Create a function that sorts and returns an array of numbers. The function will receive a list (for example [2, 4, 6, 8, 9]) and an additional parameter "Asc" or "Desc" to indicate whether it should be sorted from smallest to largest or largest to smallest.
+
+- No language-specific functions can be used to resolve this.
+
+[![JS](/assets/svg/js.svg)](/javascript/16-order-the-list.js)
+
+[⬆️ Back to top ⬆️](#problems)
