@@ -24,9 +24,10 @@ Problems are a way to practice a programming language.
 
 To view the code **click** on the **logo** of the programming language.
 
-| Logo                      |            |
+| Logo                      | Names      |
 | ------------------------- | ---------- |
 | ![JS](/assets/svg/js.svg) | JavaScript |
+| ![TS](/assets/svg/ts.svg) | TypeScript |
 
 ### Recommendation
 
@@ -36,9 +37,10 @@ In order to be able to execute the codes of the programming languages I recommen
 
 ## Tip calculator
 
-Create a function that calculates tips.
+Create a function that accepts two parameters one is the net value and the other is the tip percentage
 
 [![JS](/assets/svg/js.svg)](/javascript/01-tip-calculator.js)
+[![TS](/assets/svg/ts.svg)](/typescript/01-tip-calculator.ts)
 
 [⬆️ Back to top ⬆️](#problems)
 
