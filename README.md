@@ -55,8 +55,7 @@ Create a function that generates a hexadecimal color and that the function accep
 Create a Caesar cipher function, which is a type of substitution cipher in which one letter of the original text is replaced by another letter that is a fixed number of positions further on in the alphabet.
 
 [![JS](/assets/svg/js.svg)](/javascript/04-caesar-cipher.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/04-caesar-cipher.ts)
 
 ## Rock Paper Scissors Game.
 
