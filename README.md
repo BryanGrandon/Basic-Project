@@ -29,12 +29,6 @@ To view the code **click** on the **logo** of the programming language.
 | ![JS](/assets/svg/js.svg) | JavaScript |
 | ![TS](/assets/svg/ts.svg) | TypeScript |
 
-### Recommendation
-
-In order to be able to execute the codes of the programming languages I recommend the installation of [Node JS](https://nodejs.org/en) to execute the code both inside and outside the code editor.
-
-[⬆️ Back to top ⬆️](#problems)
-
 ## Tip calculator
 
 Create a function that accepts two parameters one is the net value and the other is the tip percentage
@@ -42,15 +36,12 @@ Create a function that accepts two parameters one is the net value and the other
 [![JS](/assets/svg/js.svg)](/javascript/01-tip-calculator.js)
 [![TS](/assets/svg/ts.svg)](/typescript/01-tip-calculator.ts)
 
-[⬆️ Back to top ⬆️](#problems)
-
 ## Age calculator
 
-Create a function that calculates age by date of birth
+Create a function that when passing an object containing the date of birth separated by day, month and year calculates the age.
 
 [![JS](/assets/svg/js.svg)](/javascript/02-age-calculator.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/02-age-calculator.ts)
 
 ## Generate color
 
