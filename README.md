@@ -45,11 +45,10 @@ Create a function that when passing an object containing the date of birth separ
 
 ## Generate color
 
-Create a function to generate hexadecimal colors.
+Create a function that generates a hexadecimal color and that the function accepts a boolean value that indicates if we want the color with transparency.
 
 [![JS](/assets/svg/js.svg)](/javascript/03-generate-color.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/03-generate-color.ts)
 
 ## Caesar cipher
 
