@@ -2,6 +2,8 @@
 
 Problems are a way to practice a programming language.
 
+- [Website recommendation](https://www.mycompiler.io/es)
+
 ## Table of content
 
 - [Introduction](#introduction)
@@ -59,9 +61,10 @@ Create a Caesar cipher function, which is a type of substitution cipher in which
 
 ## Rock Paper Scissors Game.
 
-Create a function that chooses between rock, paper, scissors and shows who has won.
+Create a function that chooses between rock, paper or scissors and according to the value added by the user tells us who has won.
 
 [![JS](/assets/svg/js.svg)](/javascript/05-rock-paper-scissors-game.js)
+[![TS](/assets/svg/ts.svg)](/typescript/05-rock-paper-scissors-game.ts)
 
 [⬆️ Back to top ⬆️](#problems)
 
