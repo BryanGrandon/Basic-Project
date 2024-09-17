@@ -1,4 +1,4 @@
-const countdownTs = (limit: string) => {
+const countdownTs = (limit: string): void => {
   const countdownDate: number = new Date(limit).getTime();
 
   if (isNaN(countdownDate)) {

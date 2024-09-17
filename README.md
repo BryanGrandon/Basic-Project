@@ -85,6 +85,7 @@ Create a function that accepts a date and shows a countdown.
 Create a function that shows us the fibonacci sequence which is a mathematical series in which each number is the sum of the two previous ones: 0, 1, 1, 1, 2, 3, 3, 5, 8, 13, 21, 34, ... and so on.
 
 [![JS](/assets/svg/js.svg)](/javascript/08-fibonacci.js)
+[![TS](/assets/svg/ts.svg)](/typescript/08-fibonacci.ts)
 
 [⬆️ Back to top ⬆️](#problems)
 
