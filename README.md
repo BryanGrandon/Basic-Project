@@ -75,11 +75,10 @@ Create a function that when entering a number in addition to indicating the type
 
 ## Countdown.
 
-Create a function that allows us to have a Countdown.
+Create a function that accepts a date and shows a countdown.
 
 [![JS](/assets/svg/js.svg)](/javascript/07-countdown.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/07-countdown.ts)
 
 ## Fibonacci.
 

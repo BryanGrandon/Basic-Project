@@ -20,11 +20,10 @@ const countdown = (limitDate) => {
     console.log(
       `Day:${day}, Hours:${hours}, Minutes:${minutes}, Seconds:${seconds}`
     );
+    if (limitTime < 0) {
+      clearInterval(countdownTempo);
+    }
   }, 1000);
-
-  if (limitTime < 0) {
-    clearInterval(countdownTempo);
-  }
 };
 
-countdown("5/1/2024");
+countdown("2024/09/18");
