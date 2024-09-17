@@ -66,15 +66,12 @@ Create a function that chooses between rock, paper or scissors and according to 
 [![JS](/assets/svg/js.svg)](/javascript/05-rock-paper-scissors-game.js)
 [![TS](/assets/svg/ts.svg)](/typescript/05-rock-paper-scissors-game.ts)
 
-[⬆️ Back to top ⬆️](#problems)
-
 ## Temperature Converter.
 
-Create a function that allows to display the temperature in Celsius, Fahrenheit and Kelvin.
+Create a function that when entering a number in addition to indicating the type of temperature shows us the temperature in degrees Celsius, Fahrenheit and Kelvin.
 
 [![JS](/assets/svg/js.svg)](/javascript/06-temperature-converter.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/06-temperature-converter.ts)
 
 ## Countdown.
 
