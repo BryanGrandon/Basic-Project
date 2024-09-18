@@ -96,11 +96,10 @@ Create a function that allows to know if the delivered text is a palindrome whic
 
 ## Password generator.
 
-Create a function that can generate a password using the alphabet, numbers and symbols.
+Create a function that generates a password from the object specifying its length if it is to have numbers, symbols or both.
 
 [![JS](/assets/svg/js.svg)](/javascript/10-password-generator.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/10-password-generator.ts)
 
 ## Number to binary converter
 
