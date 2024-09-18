@@ -87,15 +87,12 @@ Create a function that shows us the fibonacci sequence which is a mathematical s
 [![JS](/assets/svg/js.svg)](/javascript/08-fibonacci.js)
 [![TS](/assets/svg/ts.svg)](/typescript/08-fibonacci.ts)
 
-[⬆️ Back to top ⬆️](#problems)
-
 ## Palindrome.
 
 Create a function that allows to know if the delivered text is a palindrome which is a word or phrase whose letters are arranged in such a way that they are the same when read from left to right as when read from right to left.
 
 [![JS](/assets/svg/js.svg)](/javascript/09-palindrome.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/09-palindrome.ts)
 
 ## Password generator.
 
