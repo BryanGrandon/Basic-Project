@@ -126,8 +126,7 @@ Write a program that takes care of checking whether a number is prime or not.
 - Once this is done, print the prime numbers between 1 and 100.
 
 [![JS](/assets/svg/js.svg)](/javascript/13-prime-number.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/13-prime-number.ts)
 
 ## Morse code
 
