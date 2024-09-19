@@ -106,8 +106,7 @@ Create a function that generates a password from the object specifying its lengt
 Creates a function that converts a number to its binary representation.
 
 [![JS](/assets/svg/js.svg)](/javascript/11-number-to-binary-converter.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/11-number-to-binary-converter.ts)
 
 ## The famous Fizz Buzz
 
