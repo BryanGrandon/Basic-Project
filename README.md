@@ -117,8 +117,7 @@ Write a program that displays by console the numbers from 1 to 100 (both include
 - Multiples of 3 and 5 at the same time for the word "fizzBuzz".
 
 [![JS](/assets/svg/js.svg)](/javascript/12-fizz-buzz.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/12-fizz-buzz.ts)
 
 ## Prime number
 
