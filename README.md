@@ -133,8 +133,7 @@ Write a program that takes care of checking whether a number is prime or not.
 Create a program that is able to transform natural text to morse code and vice versa.
 
 [![JS](/assets/svg/js.svg)](/javascript/14-morse-code.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/14-morse-code.ts)
 
 ## Anagram
 
