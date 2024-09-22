@@ -144,8 +144,7 @@ An Anagram consists of forming a word by rearranging ALL the letters of another 
 - Two words that are exactly the same are not anagrams
 
 [![JS](/assets/svg/js.svg)](/javascript/15-anagram.js)
-
-[⬆️ Back to top ⬆️](#problems)
+[![TS](/assets/svg/ts.svg)](/typescript/15-anagram.ts)
 
 ## Order the list
 
