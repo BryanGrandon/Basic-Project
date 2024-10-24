@@ -10,7 +10,7 @@ Write a program that displays by console the numbers from 1 to 100 (both include
 
 - Multiples of 3 by the word "fizz".
 - Multiples of 5 for the word "buzz".
-- Multiples of 3 and 5 at the same time for the word "fizzBuzz".
+- Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 
-[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)]()
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/01/01-fizz-buzz.js)
 
