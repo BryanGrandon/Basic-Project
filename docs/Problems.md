@@ -6,6 +6,7 @@
 - [Is it an anagram?](#is-it-an-anagram)
 - [The Fibonacci sequence](#the-fibonacci-sequence)
 - [Is it a prime number?](#is-it-a-prime-number)
+- [Inverse text string](#inverse-text-string)
 
 ## The famous Fizz Buzz.
 
@@ -44,3 +45,10 @@ Write a program to check if a number is prime or not.
 Once this is done, print the prime numbers between 1 and 100.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/04/prime-number.js)
+
+## Inverse text string
+
+Create a program that inverts the order of a text string without using language functions that do it automatically.
+ - If we pass “Hello world” it would return “dlrow olleH”.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/05/inverse-text-string.js)

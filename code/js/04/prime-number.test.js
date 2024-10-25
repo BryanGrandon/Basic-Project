@@ -2,10 +2,6 @@ import { describe, expect, it } from 'vitest'
 import { primeNumber } from './prime-number'
 
 describe('primeNumber', () => {
-  it('should be a function', () => {
-    expect(typeof primeNumber).toBe('function')
-  })
-
   it('should throw if not number is provided as parameter', () => {
     expect(() => primeNumber()).throw()
   })
