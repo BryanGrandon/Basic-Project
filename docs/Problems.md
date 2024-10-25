@@ -4,8 +4,9 @@
 
 - [The famous Fizz Buzz](#the-famous-fizz-buzz)
 - [Is it an anagram?](#is-it-an-anagram)
+- [The Fibonacci sequence](#the-fibonacci-sequence)
 
-## The famous Fizz Buzz
+## The famous Fizz Buzz.
 
 Write a program that displays by console the numbers from 1 to 100 (both included with a line break between each print), substituting the following:
 
@@ -25,3 +26,13 @@ An Anagram consists of forming a word by rearranging ALL the letters of another 
 - Two words that are exactly the same are not anagrams.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/02/02-anagram.js)
+
+## The Fibonacci sequence.
+
+Write a program that prints the first 50 numbers of the Fibonacci sequence starting at 0.
+
+The Fibonacci series is composed by a succession of numbers in which the next one is always the sum of the two previous ones.
+
+-  0, 1, 1, 2, 3, 5, 8, 13...
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/03/fibonacci.js)
