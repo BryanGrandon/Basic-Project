@@ -5,6 +5,7 @@
 - [The famous Fizz Buzz](#the-famous-fizz-buzz)
 - [Is it an anagram?](#is-it-an-anagram)
 - [The Fibonacci sequence](#the-fibonacci-sequence)
+- [Is it a prime number?](#is-it-a-prime-number)
 
 ## The famous Fizz Buzz.
 
@@ -36,3 +37,10 @@ The Fibonacci series is composed by a succession of numbers in which the next on
 -  0, 1, 1, 2, 3, 5, 8, 13...
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/03/fibonacci.js)
+
+## Is it a prime number?
+
+Write a program to check if a number is prime or not.
+Once this is done, print the prime numbers between 1 and 100.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/04/prime-number.js)
