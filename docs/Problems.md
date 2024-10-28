@@ -9,6 +9,7 @@
 - [Inverse text string](#inverse-text-string)
 - [Decimal to Binary](#decimal-to-binary)
 - [Morse code](#morse-code)
+- [Balanced statements](#balanced-statements)
 
 ## The famous Fizz Buzz.
 
@@ -66,3 +67,13 @@ Create a program to transform a decimal number to binary without using language 
 Create a program that is able to transform natural text to Morse code and vice versa. It should automatically detect what type it is and perform the conversion.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/07/morse-code.js)
+
+## Balanced statements
+
+Creates a program that checks if the parentheses, braces and brackets in an expression are balanced.
+
+Balanced means that these delimiters are opened and closed in order and correctly.
+
+- Parentheses, braces and square brackets are of equal priority. No one is more important than the other.
+- Balanced expression: { [ a * ( c + d ) ] - 5 }
+- Unbalanced expression: { a * ( c + d ) ] - 5 }
