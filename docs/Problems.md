@@ -8,6 +8,7 @@
 - [Is it a prime number?](#is-it-a-prime-number)
 - [Inverse text string](#inverse-text-string)
 - [Decimal to Binary](#decimal-to-binary)
+- [Morse code](#morse-code)
 
 ## The famous Fizz Buzz.
 
@@ -59,3 +60,9 @@ Create a program that inverts the order of a text string without using language 
 Create a program to transform a decimal number to binary without using language functions that do it directly.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/06/decimal-to-binary.js)
+
+## Morse code
+
+Create a program that is able to transform natural text to Morse code and vice versa. It should automatically detect what type it is and perform the conversion.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/07/morse-code.js)
