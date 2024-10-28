@@ -7,6 +7,7 @@
 - [The Fibonacci sequence](#the-fibonacci-sequence)
 - [Is it a prime number?](#is-it-a-prime-number)
 - [Inverse text string](#inverse-text-string)
+- [Decimal to Binary](#decimal-to-binary)
 
 ## The famous Fizz Buzz.
 
@@ -52,3 +53,9 @@ Create a program that inverts the order of a text string without using language 
  - If we pass “Hello world” it would return “dlrow olleH”.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/05/inverse-text-string.js)
+
+## Decimal to Binary
+
+Create a program to transform a decimal number to binary without using language functions that do it directly.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/06/decimal-to-binary.js)
