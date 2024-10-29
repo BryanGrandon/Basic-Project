@@ -10,6 +10,7 @@
 - [Decimal to Binary](#decimal-to-binary)
 - [Morse code](#morse-code)
 - [Balanced statements](#balanced-statements)
+- [Is a palindrome](#is-a-palindrome)
 
 ## The famous Fizz Buzz.
 
@@ -77,3 +78,16 @@ Balanced means that these delimiters are opened and closed in order and correctl
 - Parentheses, braces and square brackets are of equal priority. No one is more important than the other.
 - Balanced expression: { [ a * ( c + d ) ] - 5 }
 - Unbalanced expression: { a * ( c + d ) ] - 5 }
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/08/balanced-statements.js)
+
+## Is a palindrome
+
+Write a function that receives a text and returns true or false (Boolean) depending on whether or not they are palindromes.
+
+A palindrome is a word or expression that is the same whether it is read from left to right or right to left.
+
+- Spaces, punctuation marks and accents are NOT taken into account.
+- Example: Ana takes the hazelnut to the bear.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/09/palindrome.js)
