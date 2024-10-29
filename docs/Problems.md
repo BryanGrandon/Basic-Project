@@ -12,6 +12,7 @@
 - [Balanced statements](#balanced-statements)
 - [Is a palindrome](#is-a-palindrome)
 - [Recursive factorial](#recursive-factorial)
+- [It's an Armstrong number](#its-an-armstrong-number)
 
 ## The famous Fizz Buzz.
 
@@ -100,3 +101,9 @@ Write a function that calculates and returns the factorial of a given number rec
 - Example: 5! = 120
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/10/recursive-factorial.js)
+
+## It's an Armstrong number
+
+ Write a function that calculates whether a given number is an Armstrong number. 
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/11/armstrong-number.js)
