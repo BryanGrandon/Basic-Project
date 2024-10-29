@@ -11,6 +11,7 @@
 - [Morse code](#morse-code)
 - [Balanced statements](#balanced-statements)
 - [Is a palindrome](#is-a-palindrome)
+- [Recursive factorial](#recursive-factorial)
 
 ## The famous Fizz Buzz.
 
@@ -91,3 +92,11 @@ A palindrome is a word or expression that is the same whether it is read from le
 - Example: Ana takes the hazelnut to the bear.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/09/palindrome.js)
+
+## Recursive factorial
+
+Write a function that calculates and returns the factorial of a given number recursively.
+
+- Example: 5! = 120
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/10/recursive-factorial.js)
