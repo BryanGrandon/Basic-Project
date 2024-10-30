@@ -13,6 +13,8 @@
 - [Is a palindrome](#is-a-palindrome)
 - [Recursive factorial](#recursive-factorial)
 - [It's an Armstrong number](#its-an-armstrong-number)
+- [Generate color](#generate-color)
+- [Password generator](#password-generator)
 
 ## The famous Fizz Buzz.
 
@@ -113,3 +115,9 @@ Write a function that calculates whether a given number is an Armstrong number.
 Write a function that generates a hexadecimal color.
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/12/generate-color.js)
+
+##  Password generator
+
+Write a function that generates a password 
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/13/password-generator.js)
