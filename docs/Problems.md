@@ -104,6 +104,12 @@ Write a function that calculates and returns the factorial of a given number rec
 
 ## It's an Armstrong number
 
- Write a function that calculates whether a given number is an Armstrong number. 
+Write a function that calculates whether a given number is an Armstrong number. 
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/11/armstrong-number.js)
+
+## Generate color
+
+Write a function that generates a hexadecimal color.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/12/generate-color.js)
