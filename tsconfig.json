@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
-    "lib": ["ES2016", "esnext", "dom"]
+    "lib": [
+      "ES2016",
+      "esnext",
+      "dom"
+    ]
   }
 }

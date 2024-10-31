@@ -15,6 +15,7 @@
 - [It's an Armstrong number](#its-an-armstrong-number)
 - [Generate color](#generate-color)
 - [Password generator](#password-generator)
+- [Temperature converter](#temperature-converter)
 
 ## The famous Fizz Buzz.
 
@@ -121,3 +122,11 @@ Write a function that generates a hexadecimal color.
 Write a function that generates a password 
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/13/password-generator.js)
+
+## Temperature converter
+
+creates a function that transforms degrees Celsius into Fahrenheit and Kelvin vice versa.
+
+- You will be given a number with its unit (“C”, “F” or “K”).
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/14/temperature-converter.js)
