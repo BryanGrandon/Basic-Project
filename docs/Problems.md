@@ -16,6 +16,7 @@
 - [Generate color](#generate-color)
 - [Password generator](#password-generator)
 - [Temperature converter](#temperature-converter)
+- [Caesar cipher](#caesar-cipher)
 
 ## The famous Fizz Buzz.
 
@@ -130,3 +131,9 @@ creates a function that transforms degrees Celsius into Fahrenheit and Kelvin vi
 - You will be given a number with its unit (“C”, “F” or “K”).
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/14/temperature-converter.js)
+
+## Caesar cipher
+
+The Caesar Cipher is one of the simplest and oldest methods of encrypting messages, named after Julius Caesar, who reportedly used it to protect his military communications.
+
+[![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/15/caesar-cipher.js)
