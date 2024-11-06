@@ -27,6 +27,7 @@ Write a program that displays by console the numbers from 1 to 100 (both include
 - Multiples of 3 and 5 at the same time for the word "fizzbuzz".
 
 [![JS](https://shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=000&style=flat)](/code/js/01/01-fizz-buzz.js)
+[![TS](https://shields.io/badge/TypeScript-3178C6?logo=TypeScript&logoColor=FFF&style=flat)](/code/ts/01/fizz-buzz-ts.ts)
 
 ## Is it an anagram?
 
