@@ -1,0 +1,3 @@
+interface Named {
+    s:string
+}
